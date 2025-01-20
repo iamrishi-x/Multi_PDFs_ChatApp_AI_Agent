@@ -13,6 +13,8 @@ from dotenv import load_dotenv
 from langchain_nomic import NomicEmbeddings
 from langchain_community.vectorstores import FAISS
 
+# streamlit run chatapp.py
+
 load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 os.environ["NOMIC_API_KEY"] = os.getenv("NOMIC_API_KEY")
