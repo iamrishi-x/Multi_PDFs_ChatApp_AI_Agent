@@ -10,7 +10,7 @@ The Multi-PDF's Chat Agent is a Streamlit-based web application designed to faci
 [Launch App On Streamlit](https://multi-pdfschatappai-agent.streamlit.app/)
 
 ## 💻 Demo:
-![Demo 1: Chatbot Output](img/LLMframework.jpg)
+![Demo 1: Chatbot Output](img/3.png)
 
 ## 🎯 How It Works:
 ------------
@@ -29,7 +29,7 @@ The application follows these steps to provide responses to your questions:
 
 5. **Response Generation** : The selected chunks are passed to the language model, which generates a response based on the relevant content of the PDFs.
 
-![Demo 2: Chatbot Output](img/LLMApp.jpg)
+![Demo 2: Chatbot Output](img/5.png)
 
 --- 
 ## 🎯 Key Features
@@ -43,7 +43,7 @@ The application follows these steps to provide responses to your questions:
 - **LLM Model Compatibility**: Supports Google Gemini Pro, OpenAI GPT 3, Anthropic Claude, Llama2 and other open-source LLMs.
 
 
-![Demo 3: Chatbot Output](img/LLMAgents.jpg)
+![Demo 3: Chatbot Output](img/2.png)
 
 
 ## 🌟Requirements
@@ -56,26 +56,33 @@ The application follows these steps to provide responses to your questions:
 - **faiss-cpu** : FAISS (Facebook AI Similarity Search) is a library developed by Facebook for efficient similarity search, Machine Learning Embeddings,Information Retrieval, content-based filtering and clustering of dense vectors.
 - **langchain_google_genai** : It is a package that provides an integration between LangChain and Google’s generative-ai SDK. It contains classes that extend the Embeddings class and provide methods for generating embeddings. The package can be used in a multipdf chatbot application to extract textual data from PDF documents and generate Accurate responses to user queries.
 
-![Demo 4: Chatbot Output](img/CALMOutput.jpg)
----
+![Demo 4: Chatbot Output](img/1.png)
 
+---
+![Demo 5: Chatbot Output](img/4.png)
+
+---
 ## ▶️Installation
 
 Clone the repository:
 
-`git clone https://github.com/GURPREETKAURJETHRA/Multi-PDFs_ChatApp_AI-Agent.git`
+`git clone https://github.com/iamrishi-x/Multi_PDFs_ChatApp_AI_Agent.git`
 
 Install the required Python packages:
 
 `pip install -r requirements.txt`
 
-Set up your Google API key from `https://makersuite.google.com/app/apikey` by creating a .env file in the root directory of the project with the following contents:
+Set up your Google API key from `https://aistudio.google.com/app/apikey` by creating a .env file in the root directory of the project with the following contents:
 
 `GOOGLE_API_KEY =<your-api-key-here>`
 
+Set nomic api key from `https://atlas.nomic.ai/cli-login` by creating a .env file in the root directory of the project with the following contents:
+
+`NOMIC_API_KEY =<your-nomic-api-key-here>`
+
 Run the Streamlit app:
 
-`streamlit run app.py`
+`streamlit run chatapp.py`
 
 ---
 ## 💡Usage
@@ -84,8 +91,8 @@ To use the Multi-PDF-s 📚ChatApp AI Agent 🤖, U can have glimpse of look by 
 
 In case You want to run & implement project on your system then follow these steps:
 
-1. Ensure that you have installed the required dependencies and added the **Google API key to the `.env` file** (MUST).
-2. Run the `app.py` file using the Streamlit CLI. Execute the following command:
+1. Ensure that you have installed the required dependencies and added the **Google API key to the `.env` file** (MUST) and **Nomic API key to the `.env` file**.
+2. Run the `chatapp.py` file using the Streamlit CLI. Execute the following command:
    ```
    streamlit run app.py
    ```
@@ -105,6 +112,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ---
 
 #### **If you like this LLM Project do drop ⭐ to this repo**
-#### Follow me on [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gurpreetkaurjethra/) &nbsp; [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GURPREETKAURJETHRA/)
+#### Follow me on [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rishibagul7/) &nbsp; [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/iamrishi-x)
 
 ---
